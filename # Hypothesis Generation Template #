@@ -1,0 +1,23 @@
+# Hunt Generation Template
+//Take a hunt hypothesis/topic and use this template to plan your hunt//
+
+Hypothesis:
+Threat Hunter Name:
+Date:
+Requestor:
+Timeframe for hunt:
+ABLE Table:
+|-----------|----------|----------|----------|
+| Adversary | Behavior | Location | Examples |
+|-----------|----------|----------|----------|
+|           |          |	   	  |          |
+|-----------|----------|----------|----------|
+
+Related Tickets (detection coverage, previous incidents, etc.) -
+SOC/IR:
+Threat Intel (TI):
+Detection Engineering (DE):
+Red Team / Pen Testing:
+Other:
+
+References:

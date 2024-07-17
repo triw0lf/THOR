@@ -11,10 +11,31 @@ It incorporates ideas for **three distinct types** of hunts classified by the [P
 ## Why
 Generating effective hypotheses and ideas for threat hunting is hard. Sharing ideas and methodologies for different types of hunts can enhance our collective capabilities and make us all better.
 
+**Submit and you will get a threat hunting sticker and a credited hypothesis number (like H0001).**
+
 ## Goals
 Inspire threat hunters
+
+## How
+Submit hunt ideas through pull requests as submissions 
+
 
 ## Authors
 Lauren  
 Sydney Marrone 🏋️‍♀️ x:[@letswastetime](https://x.com/letswastetime)  
 John
+
+
+<!--
+THL Hypothesis Review Board Prospectus
+
+The review board will be comprised of 5-7 individuals who will review all hypothesis submissions and vote on acceptance into the THL. 
+
+All submissions will be piped in to a communication channel (Slack? Ugh I don’t want another one but maybe) or email to make review easy and acceptance or denial seamless. 
+
+New versions of the THL will be published on a monthly (quarterly?) basis and all reviews must be completed 72 hours prior to release date. Any rejection should have comments on why it is being rejected and if potential improvements can be made for acceptance. 
+
+Unanimous acceptance of the hypothesis must be achieved by the review board for publication. 
+
+Review board members are expected to spread the word about THL on socials or other channels.
+-->

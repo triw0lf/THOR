@@ -1,12 +1,18 @@
 # Hunt Review Template
 
 ## Hypothesis / Topic
-- Executive Summary: key points - 3-5 sentences, true or disprove hypo, main findings (we found..., we did not find..., we did not find...but we did find.)
+- Executive Summary
+  - Key points
+      - 3-5 sentences
+      - State whether proved or disproved hypothesis
+      - Main findings (we found..., we did not find..., we did not find...but we did find.)
   
 ## Findings
-| finding | ticket number and link | description |
-|---------|------------------------|-------------|
-|     bad    |        bad  			   |    bad         |
+| Finding                       | Ticket Number and Link   | Description                                  |
+|-------------------------------|--------------------------|----------------------------------------------|
+| Unauthorized EDR Detected     | INC0001                  | An unauthorized EDR was detected on several endpoints, possibly used by threat actors for persistence and surveillance. |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;           | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;               |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;           | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;               |
 
 ## References
 

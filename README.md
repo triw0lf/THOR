@@ -67,7 +67,7 @@ Take a hunt hypothesis/topic and use the [Hunt Generation template]([/Templates/
 Once you finish your hunt, use the [Hunt Review template](/Templates/Hunt-Review.md) to share all your findings!
 
 ## Authors
-Lauren  
+Lauren  x:[@jotunvillur](https://x.com/jotunvillur) / LI:[Lauren Proehl](https://www.linkedin.com/in/laurenproehl/)   
 Sydney Marrone 🏋️‍♀️ x:[@letswastetime](https://x.com/letswastetime)  
 John
 

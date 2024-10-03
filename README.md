@@ -68,7 +68,7 @@ Once you finish your hunt, use the [Hunt Review template](/Templates/Hunt-Review
 
 ## Authors
 Lauren 🤠 x:[@jotunvillur](https://x.com/jotunvillur) / LI:[Lauren Proehl](https://www.linkedin.com/in/laurenproehl/)   
-Sydney Marrone 🏋️‍♀️ x:[@letswastetime](https://x.com/letswastetime)  
+Sydney Marrone 🏋️‍♀️ x:[@letswastetime](https://x.com/letswastetime)  / LI:[Sydney Marrone](https://www.linkedin.com/in/sydneymarrone/)  
 John
 
 <!--

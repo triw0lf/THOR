@@ -1,0 +1,17 @@
+# H004
+An adversary is attempting to brute force the admin account on the externally facing VPN gateway.
+
+| Hunt # | Hypothesis                                                                 | Tactic           | Notes                                   | Tags                                   |
+|--------------|----------------------------------------------------------------------------|------------------|-----------------------------------------|----------------------------------------|
+| H004        | An adversary is leveraging BITSAdmin jobs to download and execute payloads. | Persitence | Attackers are interested in using living off the land binaries (LOLbin) to evade detection. | #persistence #lolbin      |
+
+## Why
+
+- BITSAdmin is a tool preinstalled on Windows operating systems.
+- BITS tasks are self-contained in the BITS job database, without new files or registry modifications, and often permitted by host firewalls.
+- Often used by IT Administrators
+
+## References
+
+- https://attack.mitre.org/techniques/T1197/
+- https://redcanary.com/blog/threat-detection/bitsadmin/

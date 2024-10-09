@@ -1,6 +1,6 @@
 # 🔨 Forge Idea Template 🔨 
 
-# Submitter
+## Submitter
 [Submitter’s name or handle]
 
 ## Idea Name

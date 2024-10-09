@@ -8,15 +8,11 @@
 | **Requestor**                   | [Person or team requesting the hunt] |
 | **Timeframe for hunt**          | [Expected duration for the hunt] |
 
----
-
 ## ABLE Table:
 
 | **Adversary** | **Behavior** | **Location** | **Examples** |
 |---------------|--------------|--------------|--------------|
 | [Insert adversary] | [Insert observed or expected behavior] | [Where this behavior is expected or found] | [Examples of similar behaviors/incidents] |
-
----
 
 ## Related Tickets (detection coverage, previous incidents, etc.)
 
@@ -27,8 +23,6 @@
 | **Detection Engineering (DE)**   | [Insert related ticket or incident details] |
 | **Red Team / Pen Testing**       | [Insert related ticket or incident details] |
 | **Other**                        | [Insert related ticket or incident details] |
-
----
 
 ## References:
 - [Insert reference link]

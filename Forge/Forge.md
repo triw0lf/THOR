@@ -5,5 +5,5 @@ Welcome to **THOR's Forge**, where we collect and shape threat hunting ideas tha
 
 Feel free to contribute your own unfinished ideas or help us hammer out and flesh out existing ones!
 
-- Browse our [THOR's Forge](./thor's-forge/)
-- Submit your own using the [Forge Idea Template](./thor's-forge/idea-template.md)
+- Browse [THOR's Forge](/Forge)
+- Submit your own using the [Forge Idea Template](/Forge/Forge-Idea-Template.md)

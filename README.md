@@ -52,12 +52,10 @@ The primary template for contributing to **THOR** is the **[Hunt-Template.md](/T
 The **Hunt-Template** is essential for contributing to **THOR**, while the other tools can help you plan, organize, and share your hunts more effectively.
 
 ## 🔨 THOR's Forge 🔨
-Welcome to **THOR's Forge**, a place where we collect and shape threat hunting ideas that are still in the early stages of development. Just like how Thor’s hammer, Mjölnir, was forged in a mythical workshop, this is where raw ideas are crafted, refined, and prepared for action.
+Got a half-baked idea or something that still needs work? Submit it to **THOR's Forge**, where we collect and refine early-stage threat hunting ideas.
 
-Feel free to contribute your unfinished ideas or help us hammer out existing ones!
-
-- Browse our [THOR's Forge](/Forge/)
-- Submit your own using the [Forge Idea Template](/Forge/Forge-Idea-Template.md)
+- Browse [THOR's Forge](/Forge/)
+- Contribute your unfinished ideas using the [Forge Idea Template](/Forge/Hunt-Idea-Template.md).
 
 ## Made with ⚡ by the THOR team: 
 Lauren 🤠 x:[@jotunvillur](https://x.com/jotunvillur) / LI:[Lauren Proehl](https://www.linkedin.com/in/laurenproehl/)  

@@ -1,5 +1,8 @@
 # 🔨 Forge Idea Template 🔨 
 
+# Submitter
+[Submitter’s name or handle]
+
 ## Idea Name
 [Give your idea a title or leave it blank if you’re still figuring it out]
 

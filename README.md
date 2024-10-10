@@ -27,7 +27,12 @@ Share your threat hunting ideas with the community by following these steps:
 4. **Use the [Hunt-Template.md](/Templates/Hunt-Template.md)** to guide your submission. This template helps ensure that your hunt idea is well-structured and aligned with THOR.
 
 > [!IMPORTANT]
->**Submissions must follow sequential order (ex:H002 must follow H001), custom hunt numbers will not be assigned.**
+> **Submissions must follow sequential numbering** for the hunt types:
+> - Hypothesis-Driven: H0001, H0002, H0003, etc.
+> - Baseline: B0001, B0002, B0003, etc.
+> - Model-Assisted: M0001, M0002, M0003, etc.
+> 
+> Make sure to check the latest hunt numbers in the repository before assigning your own. Custom hunt numbers will not be assigned, and your hunt must follow the next available number (e.g., H002 must follow H001).
 
 5. **Add your hunt idea** to the appropriate folder.
 6. **Commit your changes** and push them to your forked repository.
@@ -49,11 +54,9 @@ Help us improve THOR by reporting bugs or suggesting new features:
 
 The primary template for contributing to **THOR** is the **[Hunt-Template.md](/Templates/Hunt-Template.md)**. This is the core tool for submitting your hunt ideas and contributing to the community-driven repository. It’s designed to help you document and share hypothesis-driven, baseline, or model-assisted hunts.
 
-### Additional Tools:
+### Bonus Tools:
 - **[Hunt-Generation.md](/Templates/Hunt-Generation.md)**: Once you've got your idea, use this to plan out your hunt in detail.
 - **[Hunt-Review.md](/Templates/Hunt-Review.md)**: After your hunt, use this to capture all key findings and ensure nothing is missed when sharing your results.
-
-The **Hunt-Template** is essential for contributing to **THOR**, while the other tools can help you plan, organize, and share your hunts more effectively.
 
 ## 🔨 THOR's Forge 🔨
 Got a half-baked idea or something that still needs work? Submit it to **THOR's Forge**, where we collect and refine early-stage threat hunting ideas.

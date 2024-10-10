@@ -25,6 +25,10 @@ Share your threat hunting ideas with the community by following these steps:
 2. **Clone the forked repository** to your local machine.
 3. **Create a new branch** for your submission.
 4. **Use the [Hunt-Template.md](/Templates/Hunt-Template.md)** to guide your submission. This template helps ensure that your hunt idea is well-structured and aligned with THOR.
+
+> [!IMPORTANT]
+>**Submissions must follow sequential order (ex:H002 must follow H001), custom hunt numbers will not be assigned.**
+
 5. **Add your hunt idea** to the appropriate folder.
 6. **Commit your changes** and push them to your forked repository.
 7. **Create a pull request** from your branch to the main repository.

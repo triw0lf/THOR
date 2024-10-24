@@ -4,7 +4,7 @@ title: "[H/B/M][Unique Hunt Number]"
 body:
   - type: markdown
     attributes:
-      value: "Provide a brief description of the adversary’s potential actions, explaining what behavior or activity you suspect."
+      value: Provide a brief description of the adversary’s potential actions, explaining what behavior or activity you suspect.
 
   - type: input
     attributes:

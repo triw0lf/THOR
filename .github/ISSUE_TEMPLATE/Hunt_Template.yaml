@@ -8,7 +8,7 @@ body:
 
   - type: input
     attributes:
-      label: Hunt #
+      label: Hunt
       description: [H/B/M][Number]
       placeholder: e.g., H001
       required: true

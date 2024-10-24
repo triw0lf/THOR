@@ -1,11 +1,10 @@
-name: Hunt Submission Form
+name: THOR Submission Form
 description: Provide details about the hunt idea for submission.
 title: "[H/B/M][Unique Hunt Number]"
 body:
   - type: markdown
     attributes:
-      value: |
-        Provide a brief description of the adversary’s potential actions, explaining what behavior or activity you suspect.
+      value: Provide a brief description of the adversary’s potential actions, explaining what behavior or activity you suspect.
 
   - type: input
     id: hunt_number
@@ -85,8 +84,7 @@ body:
 
   - type: markdown
     attributes:
-      value: |
-        ## References
+      value: ## References
         Include any relevant MITRE ATT&CK links or other references that support the hypothesis. Link to articles, reports, or blogs that provide further context or background information.
 
   - type: textarea

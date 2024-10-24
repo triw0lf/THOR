@@ -13,12 +13,12 @@ body:
       - B (Baseline): Focused on identifying deviations from typical behavior.
       - M (Model-Assisted): Hunts driven by models like anomaly detection or machine learning.
       
-- type: input
-  id: hunt_number
-  attributes:
-    label: Hunt Number
-    description: '[H/B/M][Number]'
-    placeholder: 'e.g., H001'
+#- type: input
+#  id: hunt_number
+#  attributes:
+#    label: Hunt Number
+#    description: '[H/B/M][Number]'
+#    placeholder: 'e.g., H001'
 
 - type: textarea
   id: hypothesis

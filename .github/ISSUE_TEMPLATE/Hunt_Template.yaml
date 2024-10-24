@@ -3,8 +3,10 @@ description: Provide details about the hunt idea for submission.
 title: "[H/B/M][Unique Hunt Number]"
 body:
   - type: markdown
+  id: hunt_idea
     attributes:
-      value: Provide a brief description of the adversary’s potential actions, explaining what behavior or activity you suspect.
+      label: "unt Idea / Hypothesis"
+      value: "Provide a brief description of the adversary’s potential actions, explaining what behavior or activity you suspect."
 
   - type: input
     id: hunt_number

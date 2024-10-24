@@ -81,12 +81,7 @@ body:
     label: Next Steps
     description: 'Outline the next steps required to develop or investigate this hypothesis.'
     placeholder: 'Provide details'
-
-
-- type: markdown
-  attributes:
-    value: |
-      References
+    
 
 - type: textarea
   id: references
@@ -94,7 +89,7 @@ body:
     label: References
     description: 'Include any relevant MITRE ATT&CK links or other references that support the hypothesis.'
     placeholder: 'Provide references'
-
+    
 
 - type: dropdown
   id: hunt_type

@@ -1,5 +1,5 @@
 name: THOR Submission Form
-about: Provide details about the hunt idea for submission.
+about: "Provide details about the hunt idea for submission."
 title: "[H/B/M][Unique Hunt Number]"
 body:
   - type: markdown
@@ -8,9 +8,9 @@ body:
 
   - type: input
     attributes:
-      label: "Hunt #"
-      description: "[H/B/M][Number]"
-      placeholder: "e.g., H001"
+      label: Hunt #
+      description: [H/B/M][Number]
+      placeholder: e.g., H001
       required: true
 
   - type: textarea

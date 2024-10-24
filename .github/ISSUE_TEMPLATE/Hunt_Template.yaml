@@ -4,9 +4,8 @@ about: Threat Hunter Operational Repository
 title: "[H/B/M][Unique Hunt Number]"
 body:
   - type: markdown
-  id: hunt_idea
+    id: hunt_idea
     attributes:
-      label: "unt Idea / Hypothesis"
       value: "Provide a brief description of the adversary’s potential actions, explaining what behavior or activity you suspect."
 
   - type: input
@@ -74,8 +73,8 @@ body:
   - type: markdown
     attributes:
       value: |
-        "## Next Steps
-        Outline the next steps required to complete the investigation or further develop this hypothesis. Mention any additional data sources, tools, or queries that could help validate or refine this hypothesis."
+        ## Next Steps
+        Outline the next steps required to complete the investigation or further develop this hypothesis. Mention any additional data sources, tools, or queries that could help validate or refine this hypothesis.
 
   - type: textarea
     id: next_steps
@@ -87,11 +86,8 @@ body:
 
   - type: markdown
     attributes:
-      value: "## References"
-  - type: markdown
-   attributes:
-    value: |
-        "Include any relevant MITRE ATT&CK links or other references that support the hypothesis. Link to articles, reports, or blogs that provide further context or background information."
+      value: |
+        ## References
 
   - type: textarea
     id: references
@@ -106,6 +102,6 @@ body:
     attributes:
       label: Which type of hunt idea is this?
       options:
-        - H (Hypothesis-Driven): Based on assumptions about adversary behavior or specific activities.
-        - B (Baseline): Focused on identifying deviations from typical behavior.
-        - M (Model-Assisted): Hunts driven by models like anomaly detection or machine learning.
+        - "H (Hypothesis-Driven): Based on assumptions about adversary behavior or specific activities."
+        - "B (Baseline): Focused on identifying deviations from typical behavior."
+        - "M (Model-Assisted): Hunts driven by models like anomaly detection or machine learning."

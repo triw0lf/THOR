@@ -1,7 +1,16 @@
 name: "THOR Submission Form"
-about: "Provide details about the hunt idea for submission."
+about: Provide details about the hunt idea for submission
 title: "[H/B/M][Unique Hunt Number]"
+
 body:
-  - type: markdown
-    attributes:
-      value: Provide a brief description of the adversary’s potential actions, explaining what behavior or activity you suspect.
+- type: dropdown
+  id: download
+  attributes:
+    label: How did you download the software?
+    options:
+      - Homebrew
+      - MacPorts
+      - apt-get
+      - Built from source
+  validations:
+    required: true

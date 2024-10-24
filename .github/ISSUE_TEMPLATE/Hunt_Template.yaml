@@ -12,6 +12,13 @@ body:
       - H (Hypothesis-Driven): Based on assumptions about adversary behavior or specific activities.
       - B (Baseline): Focused on identifying deviations from typical behavior.
       - M (Model-Assisted): Hunts driven by models like anomaly detection or machine learning.
+
+- type: input
+  id: submitter
+  attributes:
+    label: Submitter
+    description: 'Submitter’s name or handle'
+    placeholder: 'e.g., @username'
       
 #- type: input
 #  id: hunt_number
@@ -49,15 +56,6 @@ body:
     label: Tags
     description: 'Relevant tags like #[Tactic] #[Keywords related to the activity]'
     placeholder: '#Persistence #FileAccess'
-
-
-- type: input
-  id: submitter
-  attributes:
-    label: Submitter
-    description: 'Submitter’s name or handle'
-    placeholder: 'e.g., @username'
-
 
 - type: markdown
   attributes:

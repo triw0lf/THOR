@@ -4,12 +4,10 @@ about: Threat Hunter Operational Repository
 title: "[H/B/M][Unique Hunt Number]"
 body:
   - type: markdown
-    id: hunt_idea
     attributes:
       value: "Provide a brief description of the adversary’s potential actions, explaining what behavior or activity you suspect."
 
   - type: input
-    id: hunt_number
     attributes:
       label: "Hunt #"
       description: "[H/B/M][Number]"
@@ -17,7 +15,6 @@ body:
       required: true
 
   - type: textarea
-    id: hypothesis
     attributes:
       label: Hypothesis
       description: "Describe what the adversary might be trying to accomplish, e.g., accessing sensitive files, escalating privileges, etc."
@@ -25,7 +22,6 @@ body:
       required: true
 
   - type: input
-    id: tactic
     attributes:
       label: Tactic
       description: "Relevant MITRE ATT&CK tactic (e.g., Persistence, Defense Evasion)"
@@ -33,7 +29,6 @@ body:
       required: true
 
   - type: textarea
-    id: notes
     attributes:
       label: Notes
       description: "Notes on limitations, assumptions, or details about the systems in question."
@@ -41,7 +36,6 @@ body:
       required: true
 
   - type: input
-    id: tags
     attributes:
       label: Tags
       description: "Relevant tags like #[Tactic] #[Keywords related to the activity]"
@@ -49,7 +43,6 @@ body:
       required: true
 
   - type: input
-    id: submitter
     attributes:
       label: Submitter
       description: "Submitter’s name or handle"
@@ -63,7 +56,6 @@ body:
         Explain why this hypothesis is important. What risks does this behavior pose to the organization? Discuss potential consequences if the hypothesis is proven true and mention if this hypothesis connects to larger campaigns or targets high-value assets.
 
   - type: textarea
-    id: why
     attributes:
       label: Why
       description: "Explain the importance of this hypothesis and its potential consequences."
@@ -77,7 +69,6 @@ body:
         Outline the next steps required to complete the investigation or further develop this hypothesis. Mention any additional data sources, tools, or queries that could help validate or refine this hypothesis.
 
   - type: textarea
-    id: next_steps
     attributes:
       label: Next Steps
       description: "Outline the next steps required to develop or investigate this hypothesis."
@@ -90,7 +81,6 @@ body:
         ## References
 
   - type: textarea
-    id: references
     attributes:
       label: References
       description: "Include any relevant links or references that support the hypothesis."
@@ -98,7 +88,6 @@ body:
       required: true
 
   - type: dropdown
-    id: hunt_type
     attributes:
       label: Which type of hunt idea is this?
       options:

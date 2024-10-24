@@ -1,0 +1,106 @@
+name: Hunt Submission Form
+description: Provide details about the hunt idea for submission.
+title: "[H/B/M][Unique Hunt Number]"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Provide a brief description of the adversary’s potential actions, explaining what behavior or activity you suspect.
+
+  - type: input
+    id: hunt_number
+    attributes:
+      label: Hunt #
+      description: "[H/B/M][Number]"
+      placeholder: "e.g., H001"
+      required: true
+
+  - type: textarea
+    id: hypothesis
+    attributes:
+      label: Hypothesis
+      description: "Describe what the adversary might be trying to accomplish, e.g., accessing sensitive files, escalating privileges, etc."
+      placeholder: "Brief description of the hypothesis"
+      required: true
+
+  - type: input
+    id: tactic
+    attributes:
+      label: Tactic
+      description: "Relevant MITRE ATT&CK tactic (e.g., Persistence, Defense Evasion)"
+      placeholder: "e.g., Persistence"
+      required: true
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: "Notes on limitations, assumptions, or details about the systems in question."
+      placeholder: "Additional notes"
+      required: false
+
+  - type: input
+    id: tags
+    attributes:
+      label: Tags
+      description: "Relevant tags like #[Tactic] #[Keywords related to the activity]"
+      placeholder: "#Persistence #FileAccess"
+      required: false
+
+  - type: input
+    id: submitter
+    attributes:
+      label: Submitter
+      description: "Submitter’s name or handle"
+      placeholder: "e.g., @username"
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ## Why
+        Explain why this hypothesis is important. What risks does this behavior pose to the organization? Discuss potential consequences if the hypothesis is proven true and mention if this hypothesis connects to larger campaigns or targets high-value assets.
+
+  - type: textarea
+    id: why
+    attributes:
+      label: Why
+      description: "Explain the importance of this hypothesis and its potential consequences."
+      placeholder: "Provide details"
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ## Next Steps
+        Outline the next steps required to complete the investigation or further develop this hypothesis. Mention any additional data sources, tools, or queries that could help validate or refine this hypothesis.
+
+  - type: textarea
+    id: next_steps
+    attributes:
+      label: Next Steps
+      description: "Outline the next steps required to develop or investigate this hypothesis."
+      placeholder: "Provide details"
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ## References
+        Include any relevant MITRE ATT&CK links or other references that support the hypothesis. Link to articles, reports, or blogs that provide further context or background information.
+
+  - type: textarea
+    id: references
+    attributes:
+      label: References
+      description: "Include any relevant links or references that support the hypothesis."
+      placeholder: "Provide references"
+      required: false
+
+  - type: markdown
+    attributes:
+      value: |
+        ### Hunt Types:
+        - **H (Hypothesis-Driven)**: Based on assumptions about adversary behavior or specific activities.
+        - **B (Baseline)**: Focused on identifying deviations from typical behavior.
+        - **M (Model-Assisted)**: Hunts driven by models like anomaly detection or machine learning.

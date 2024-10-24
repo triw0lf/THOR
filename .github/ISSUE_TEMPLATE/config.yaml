@@ -1,0 +1,14 @@
+blank_issues_enabled: false
+default_config:
+  contact_links:
+    - name: Get Support
+      url: https://github.com/your-repo/support
+      about: Ask questions about how to contribute or report any issues.
+issue_templates:
+  - name: THOR Submission Form
+    description: Use this template to submit a hunt idea.
+    title: "[H/B/M][Unique Hunt Number]"
+    labels: ["hunt-submission", "threat-hunting"]
+    about: |
+      Provide a brief description of the adversary’s potential actions and fill out the template to contribute your hunt idea.
+    template: hunt_template.yml

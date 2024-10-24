@@ -1,8 +1,7 @@
----
 name: THOR Submission Form
 description: A template to submit a new hunt idea
-title: [H/B/M][Unique Hunt Number]
-labels: ["hunt", "submission", "threat-hunting"]
+title: '[H/B/M][Unique Hunt Number]'
+labels: ['hunt', 'submission', 'threat-hunting']
 
 body:
   - type: markdown
@@ -16,48 +15,48 @@ body:
     id: hunt_number
     attributes:
       label: Hunt Number
-      description: "[H/B/M][Number]"
-      placeholder: "e.g., H001"
+      description: '[H/B/M][Number]'
+      placeholder: 'e.g., H001'
       required: true
 
   - type: textarea
     id: hypothesis
     attributes:
       label: Hypothesis
-      description: "Describe what the adversary might be trying to accomplish, e.g., accessing sensitive files, escalating privileges, etc."
-      placeholder: "Brief description of the hypothesis"
+      description: 'Describe what the adversary might be trying to accomplish, e.g., accessing sensitive files, escalating privileges, etc.'
+      placeholder: 'Brief description of the hypothesis'
       required: true
 
   - type: input
     id: tactic
     attributes:
       label: Tactic
-      description: "Relevant MITRE ATT&CK tactic (e.g., Persistence, Defense Evasion)"
-      placeholder: "e.g., Persistence"
+      description: 'Relevant MITRE ATT&CK tactic (e.g., Persistence, Defense Evasion)'
+      placeholder: 'e.g., Persistence'
       required: true
 
   - type: textarea
     id: notes
     attributes:
       label: Notes
-      description: "Notes on limitations, assumptions, or details about the systems in question."
-      placeholder: "Additional notes"
+      description: 'Notes on limitations, assumptions, or details about the systems in question.'
+      placeholder: 'Additional notes'
       required: true
 
   - type: input
     id: tags
     attributes:
-      label: "Tags"
-      description: "Relevant tags like #[Tactic] #[Keywords related to the activity]"
-      placeholder: "#Persistence #FileAccess"
+      label: 'Tags'
+      description: 'Relevant tags like #[Tactic] #[Keywords related to the activity]'
+      placeholder: '#Persistence #FileAccess'
       required: true
 
   - type: input
     id: submitter
     attributes:
       label: Submitter
-      description: "Submitter’s name or handle"
-      placeholder: "e.g., @username"
+      description: 'Submitter’s name or handle'
+      placeholder: 'e.g., @username'
       required: true
 
   - type: markdown
@@ -73,8 +72,8 @@ body:
     id: why
     attributes:
       label: Why
-      description: "Explain the importance of this hypothesis and its potential consequences."
-      placeholder: "Provide details"
+      description: 'Explain the importance of this hypothesis and its potential consequences.'
+      placeholder: 'Provide details'
       required: true
 
   - type: markdown
@@ -89,8 +88,8 @@ body:
     id: next_steps
     attributes:
       label: Next Steps
-      description: "Outline the next steps required to develop or investigate this hypothesis."
-      placeholder: "Provide details"
+      description: 'Outline the next steps required to develop or investigate this hypothesis.'
+      placeholder: 'Provide details'
       required: true
 
   - type: markdown
@@ -102,8 +101,8 @@ body:
     id: references
     attributes:
       label: References
-      description: "Include any relevant MITRE ATT&CK links or other references that support the hypothesis."
-      placeholder: "Provide references"
+      description: 'Include any relevant MITRE ATT&CK links or other references that support the hypothesis.'
+      placeholder: 'Provide references'
       required: true
 
   - type: dropdown
@@ -115,4 +114,3 @@ body:
         - B (Baseline): Focused on identifying deviations from typical behavior.
         - M (Model-Assisted): Hunts driven by models like anomaly detection or machine learning.
       required: true
-

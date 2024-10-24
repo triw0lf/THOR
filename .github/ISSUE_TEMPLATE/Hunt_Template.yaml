@@ -2,7 +2,7 @@
 name: THOR Submission Form
 description: |
 A template to submit a new hunt idea
-title: "[H/B/M][Unique Hunt Number]"
+title: [H/B/M][Unique Hunt Number]
 labels: ["hunt", "submission", "threat-hunting"]
 
 body:

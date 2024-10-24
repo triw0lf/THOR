@@ -4,13 +4,6 @@ title: '[H/B/M][Unique Hunt Number]'
 labels: ['hunt', 'submission', 'threat-hunting']
 
 body:
-  - type: markdown
-    attributes:
-      value: |
-        ## [H/B/M][Unique Hunt Number]
-        
-        Provide a brief description of the adversary’s potential actions, explaining what behavior or activity you suspect.
-
   - type: input
     id: hunt_number
     attributes:

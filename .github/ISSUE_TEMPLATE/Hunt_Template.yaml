@@ -1,5 +1,6 @@
 name: THOR Submission Form
 description: Provide details about the hunt idea for submission.
+about: Threat Hunter Operational Repository
 title: "[H/B/M][Unique Hunt Number]"
 body:
   - type: markdown

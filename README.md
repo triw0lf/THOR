@@ -36,7 +36,7 @@ We welcome contributions to the Hunting Exchange And Research Threat Hub! Contri
 
 To share your threat hunting ideas:
 
-1. Go to [Submit New Issue](https://github.com/HEARTH/issues/new/choose)
+1. Go to [Submit New Issue](https://github.com/triw0lf/HEARTH/issues/new/choose)
 2. Select "Hunt Submission Form" template
 3. Complete all fields:
 

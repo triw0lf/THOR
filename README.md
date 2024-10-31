@@ -25,7 +25,8 @@ HEARTH/
 ├── Alchemy/             # Model-Assisted & Algorithmic Hunting
 ├── Forge/               # Development space
 ├── Kindling/            # Resources & Templates
-└── Keepers/             # Guidelines & Standards
+├── Keepers/             # Guidelines & Standards
+└── Assets/              # Images & Logos
 ```
 
 ## 🔥 How to Contribute to HEARTH 

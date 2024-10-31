@@ -1,6 +1,6 @@
-name: THOR Submission Form
+name: HEARTH Submission Form
 description: A template to submit a new hunt idea
-title: '[H/B/M][Unique Hunt Number]'
+title: 'Hunt Topic'
 labels: ['hunt', 'submission', 'threat-hunting']
 
 body:
@@ -9,9 +9,9 @@ body:
   attributes:
     label: Hunt Type
     options:
-      - H (Hypothesis-Driven): Based on assumptions about adversary behavior or specific activities.
-      - B (Baseline): Focused on identifying deviations from typical behavior.
-      - M (Model-Assisted): Hunts driven by models like anomaly detection or machine learning.
+      - Flames (Hypothesis-Driven): Based on assumptions about adversary behavior or specific activities.
+      - Embers (Baseline): Focused on identifying deviations from typical behavior.
+      - Alchemy (Model-Assisted): Hunts driven by models like anomaly detection or machine learning.
 
 - type: input
   id: submitter

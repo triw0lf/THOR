@@ -93,7 +93,7 @@ The primary template for contributing to HEARTH is via the [Hunt Submission Form
 Got a half-baked idea or something that needs work? Submit it to **The Forge**, where we collect and refine early-stage threat hunting ideas for all hunt types.
 
 - Browse [The Forge](/Forge/)
-- Contribute using the [Forge Idea Template](/Forge/Hunt-Idea-Template.md)
+- Contribute using the [Forge Idea Template](/Forge/Forge-Idea-Template.md)
 
 ## Made with 🔥 by the HEARTH team: 
 Lauren 🤠 x:[@jotunvillur](https://x.com/jotunvillur) / LI:[Lauren Proehl](https://www.linkedin.com/in/laurenproehl/)  

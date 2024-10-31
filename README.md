@@ -35,55 +35,17 @@ We welcome contributions to the Hunting Exchange And Research Threat Hub! Contri
 
 ### 🔥 Submit a Hunt Idea
 
-To share your threat hunting ideas:
+We welcome contributions from all threat hunters! To share your ideas:
 
 1. Go to [Submit New Issue](https://github.com/triw0lf/HEARTH/issues/new/choose)
-2. Select "Hunt Submission Form" template
-3. Complete all fields:
-
-   **Required Information:**
-   - Hunt Type:
-     - Flames (Hypothesis-Driven)
-     - Embers (Baseline)
-     - Alchemy (Model-Assisted)
-   - Submitter Name/Handle
-   - Hypothesis/Hunt Idea
-   - MITRE ATT&CK Tactic
-   - Tags (e.g., #Persistence #FileAccess)
-
-   **Detailed Sections:**
-   - Why
-     - Explain the importance of this hypothesis
-     - Discuss potential consequences
-     - Describe connection to larger campaigns
-   
-   - Next Steps
-     - Required investigation steps
-     - Additional data sources
-     - Tools or queries needed
-   
-   - Notes
-     - Limitations
-     - Assumptions
-     - System requirements
-   
-   - References
-     - MITRE ATT&CK links
-     - Related research
-     - Supporting documentation
-
-4. Click "Submit new issue"
+2. Select "HEARTH Hunt Submission Form"
+3. Fill out the required information about your hunt
+4. Submit for review
 
 > [!IMPORTANT]
-> **Hunt Numbers are automatically assigned upon approval:**
-> - Flames (Hypothesis-Driven): H0001, H0002, H0003, etc.
-> - Embers (Baseline): B0001, B0002, B0003, etc.
-> - Alchemy (Model-Assisted): A0001, A0002, A0003, etc.
+> See our [Contribution Guidelines](/Keepers/CONTRIBUTING.md) for detailed instructions and requirements.
 
-Your submission will be reviewed by the HEARTH Keepers. Upon approval, you'll receive:
-- An official hunt number
-- Community recognition
-- Integration into the HEARTH repository
+Approved submissions receive an official hunt number, community recognition, and integration into the HEARTH repository.
 
 ### 🔥 Other Contributions
 

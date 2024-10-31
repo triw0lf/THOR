@@ -1,95 +1,85 @@
-name: THOR Submission Form
-description: A template to submit a new hunt idea
-title: '[H/B/M][Unique Hunt Number]'
+name: HEARTH Hunt Submission Form
+description: Template to submit a new threat hunting idea to the HEARTH community
 labels: ['hunt', 'submission', 'threat-hunting']
 
 body:
 - type: dropdown
   id: hunt_type
   attributes:
-    label: Hunt Type
+    label: Hunt Type 🔥
     options:
-      - H (Hypothesis-Driven): Based on assumptions about adversary behavior or specific activities.
-      - B (Baseline): Focused on identifying deviations from typical behavior.
-      - M (Model-Assisted): Hunts driven by models like anomaly detection or machine learning.
+      - Flames (Hypothesis-Driven): Based on assumptions about adversary behavior or specific activities.
+      - Embers (Baseline): Focused on identifying deviations from typical behavior.
+      - Alchemy (Model-Assisted): Hunts driven by models like anomaly detection or machine learning.
 
 - type: input
   id: submitter
   attributes:
-    label: Submitter
-    description: 'Submitter’s name or handle'
+    label: HEARTH Crafter
+    description: 'Your name or handle for community recognition'
     placeholder: 'e.g., @username'
-      
-#- type: input
-#  id: hunt_number
-#  attributes:
-#    label: Hunt Number
-#    description: '[H/B/M][Number]'
-#    placeholder: 'e.g., H001'
 
 - type: textarea
   id: hypothesis
   attributes:
-    label: Hypothesis / Hunt Idea
-    description: 'Describe what the adversary might be trying to accomplish, e.g., accessing sensitive files, escalating privileges, etc.'
-    placeholder: 'Brief description of the hypothesis'
+    label: Hunt Idea / Hypothesis
+    description: 'Describe the threat activity or behavior you aim to detect. For Flames, describe what the adversary might be doing. For Embers, describe what normal behavior looks like. For Alchemy, describe the patterns you want to detect.'
+    placeholder: 'Brief description of your hunt idea'
 
 - type: input
   id: tactic
   attributes:
-    label: Tactic
+    label: MITRE ATT&CK Tactic
     description: 'Relevant MITRE ATT&CK tactic (e.g., Persistence, Defense Evasion)'
     placeholder: 'e.g., Persistence'
-
 
 - type: textarea
   id: notes
   attributes:
-    label: Notes
-    description: 'Notes on limitations, assumptions, or details about the systems in question.'
-    placeholder: 'Additional notes'
-    
+    label: Implementation Notes
+    description: 'Notes on limitations, assumptions, data requirements, or specific system details needed.'
+    placeholder: 'Additional implementation details'
 
 - type: input
   id: tags
   attributes:
-    label: Tags
-    description: 'Relevant tags like #[Tactic] #[Keywords related to the activity]'
-    placeholder: '#Persistence #FileAccess'
+    label: Search Tags
+    description: 'Add relevant tags to help others find your hunt idea: #[Tactic] #[DataSource] #[ThreatActor] #[Technique]'
+    placeholder: '#Persistence #WindowsEvents #Scheduled Tasks'
 
 - type: markdown
   attributes:
     value: |
-      Why
+      ## Why Light This Fire? 🔥
       
-      - Explain why this hypothesis is important. What risks does this behavior pose to the organization?
-      - Discuss potential consequences if the hypothesis is proven true, e.g., what could a successful attack lead to?
-      - Mention if this hypothesis connects to larger campaigns or targets high-value assets.
+      - What security risks or threats does this hunt address?
+      - What are the potential impacts if malicious activity is found?
+      - How does this hunt connect to known threat campaigns or protect critical assets?
+      - Why would this hunt be valuable to the community?
 
 - type: textarea
   id: why
   attributes:
-    label: Explain the importance of this hypothesis and its potential consequences.
-    placeholder: 'Provide details'
-
-
-- type: markdown
-  attributes:
-    value: |
-      Next Steps
-
-      - Outline the next steps required to complete the investigation or further develop this hypothesis.
-      - Mention any additional data sources, tools, or queries that could help validate or refine this hypothesis.
-
-- type: textarea
-  id: next_steps
-  attributes:
-    label: Outline the next steps required to develop or investigate this hypothesis.
-    placeholder: 'Provide details'
+    label: Value and Impact
+    placeholder: 'Explain why this hunt matters and its potential impact on security'
 
 - type: textarea
   id: references
   attributes:
-    label: References
-    description: 'Include any relevant MITRE ATT&CK links or other references that support the hypothesis.'
-    placeholder: 'Provide references'
+    label: Knowledge Base
+    description: 'Include any supporting references, research, or documentation:'
+    placeholder: |
+      - MITRE ATT&CK References
+      - Related Research Papers
+      - Blog Posts or Articles
+      - Similar Hunt Techniques
+      - Relevant Tools or Frameworks
+
+- type: markdown
+  attributes:
+    value: |
+      > [!IMPORTANT]
+      > Upon approval by HEARTH Keepers, your hunt will receive:
+      > - Official hunt number (Flames: H####, Embers: B####, or Alchemy: A####)
+      > - Community recognition
+      > - Integration into the HEARTH repository

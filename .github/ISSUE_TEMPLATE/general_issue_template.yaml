@@ -100,7 +100,7 @@ body:
     placeholder: 'Describe the potential benefits or improvements...'
     render: markdown
   validations:
-    required: true
+    required: false
 
 - type: textarea
   id: additional_context
@@ -119,11 +119,11 @@ body:
     description: 'Your name or handle for community recognition (optional)'
     placeholder: 'e.g., @username'
 
-- type: checkboxes
-  id: terms
-  attributes:
-    label: Code of Conduct
-    description: By submitting this issue, you agree to follow our Community Guidelines
-    options:
-      - label: I agree to follow HEARTH's Community Guidelines
-        required: true
+#- type: checkboxes
+#  id: terms
+#  attributes:
+#   label: Code of Conduct
+#   description: By submitting this issue, you agree to follow our Community Guidelines
+#   options:
+#     - label: I agree to follow HEARTH's Community Guidelines
+#       required: true

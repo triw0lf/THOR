@@ -1,0 +1,129 @@
+name: HEARTH Issue Template
+description: Submit bugs, feature requests, or general feedback for HEARTH
+labels: ['community-feedback']
+assignees: []
+
+body:
+- type: markdown
+  attributes:
+    value: |
+      # Welcome to HEARTH Issue Submission
+      Thank you for taking the time to submit an issue! Please fill out the appropriate sections below.
+      
+      🔥 HEARTH (Hunting Exchange And Research Threat Hub) values your input to help keep our community's flame burning bright.
+
+- type: dropdown
+  id: issue_type
+  attributes:
+    label: Issue Type
+    description: 'What type of issue would you like to submit?'
+    options:
+      - Bug Report
+      - Feature Request
+      - General Feedback
+  validations:
+    required: true
+
+- type: dropdown
+  id: category
+  attributes:
+    label: Category
+    description: 'Which area of HEARTH does this relate to?'
+    options:
+      - Flames (Hypothesis-Driven Hunts)
+      - Embers (Baseline Analysis)
+      - Alchemy (Model-Assisted Hunts)
+      - The Forge (Development Space)
+      - Kindling (Resources & Templates)
+      - Keepers (Guidelines & Standards)
+      - Other
+  validations:
+    required: true
+
+# Bug Report Fields
+- type: textarea
+  id: bug_description
+  attributes:
+    label: Bug Description
+    description: 'If reporting a bug, please describe what happened'
+    placeholder: 'Clear and concise description of the bug...'
+    render: markdown
+  validations:
+    required: false
+
+- type: textarea
+  id: bug_reproduce
+  attributes:
+    label: Steps to Reproduce
+    description: 'If reporting a bug, how can we reproduce this issue?'
+    placeholder: |
+      1. Go to '...'
+      2. Click on '...'
+      3. See error
+    render: markdown
+  validations:
+    required: false
+
+# Feature Request Fields
+- type: textarea
+  id: feature_description
+  attributes:
+    label: Feature Description
+    description: 'If requesting a feature, please describe your idea'
+    placeholder: |
+      - What problem does this solve?
+      - How would you like it to work?
+      - What alternatives have you considered?
+    render: markdown
+  validations:
+    required: false
+
+# General Feedback Fields
+- type: textarea
+  id: feedback_description
+  attributes:
+    label: Feedback
+    description: 'If providing general feedback, please share your thoughts'
+    placeholder: |
+      - What are your suggestions?
+      - How could HEARTH be improved?
+      - What's working well?
+    render: markdown
+  validations:
+    required: false
+
+- type: textarea
+  id: impact
+  attributes:
+    label: Expected Impact
+    description: 'How would addressing this improve HEARTH and our community?'
+    placeholder: 'Describe the potential benefits or improvements...'
+    render: markdown
+  validations:
+    required: true
+
+- type: textarea
+  id: additional_context
+  attributes:
+    label: Additional Context
+    description: 'Any other information that would help us understand your submission'
+    placeholder: 'Screenshots, examples, or additional details...'
+    render: markdown
+  validations:
+    required: false
+
+- type: input
+  id: submitter
+  attributes:
+    label: HEARTH Crafter
+    description: 'Your name or handle for community recognition (optional)'
+    placeholder: 'e.g., @username'
+
+- type: checkboxes
+  id: terms
+  attributes:
+    label: Code of Conduct
+    description: By submitting this issue, you agree to follow our Community Guidelines
+    options:
+      - label: I agree to follow HEARTH's Community Guidelines
+        required: true

@@ -11,6 +11,8 @@ body:
       - Flames (Hypothesis-Driven): Based on assumptions about adversary behavior or specific activities.
       - Embers (Baseline): Focused on identifying deviations from typical behavior.
       - Alchemy (Model-Assisted): Hunts driven by models like anomaly detection or machine learning.
+  validations:
+    required: true
 
 - type: input
   id: submitter
@@ -18,6 +20,8 @@ body:
     label: HEARTH Crafter
     description: 'Your name or handle for community recognition'
     placeholder: 'e.g., @username'
+  validations:
+    required: true
 
 - type: textarea
   id: hypothesis
@@ -25,6 +29,8 @@ body:
     label: Hunt Idea / Hypothesis
     description: 'Describe the threat activity or behavior you aim to detect. For Flames, describe what the adversary might be doing. For Embers, describe what normal behavior looks like. For Alchemy, describe the patterns you want to detect.'
     placeholder: 'Brief description of your hunt idea'
+  validations:
+    required: true
 
 - type: input
   id: tactic
@@ -32,6 +38,8 @@ body:
     label: MITRE ATT&CK Tactic
     description: 'Relevant MITRE ATT&CK tactic (e.g., Persistence, Defense Evasion)'
     placeholder: 'e.g., Persistence'
+  validations:
+    required: true
 
 - type: textarea
   id: notes
@@ -39,6 +47,8 @@ body:
     label: Implementation Notes
     description: 'Notes on limitations, assumptions, data requirements, or specific system details needed.'
     placeholder: 'Additional implementation details'
+  validations:
+    required: true
 
 - type: input
   id: tags
@@ -46,6 +56,8 @@ body:
     label: Search Tags
     description: 'Add relevant tags to help others find your hunt idea: #[Tactic] #[DataSource] #[ThreatActor] #[Technique]'
     placeholder: '#Persistence #WindowsEvents #Scheduled Tasks'
+  validations:
+    required: true
 
 - type: markdown
   attributes:
@@ -62,6 +74,8 @@ body:
   attributes:
     label: Value and Impact
     placeholder: 'Explain why this hunt matters and its potential impact on security'
+  validations:
+    required: true
 
 - type: textarea
   id: references
@@ -74,6 +88,8 @@ body:
       - Blog Posts or Articles
       - Similar Hunt Techniques
       - Relevant Tools or Frameworks
+  validations:
+    required: true
 
 - type: markdown
   attributes:

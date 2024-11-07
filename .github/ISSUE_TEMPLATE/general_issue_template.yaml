@@ -118,6 +118,8 @@ body:
     label: HEARTH Crafter
     description: 'Your name or handle for community recognition (optional)'
     placeholder: 'e.g., @username'
+  validations:
+    required: true
 
 #- type: checkboxes
 #  id: terms

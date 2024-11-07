@@ -1,13 +1,20 @@
 blank_issues_enabled: false
-default_config:
-  contact_links:
-    - name: Get Support
-      url: https://github.com/triw0lf/HEARTH/support
-      about: Ask questions about how to contribute or report any issues.
-issue_templates:
+contact_links:
+  - name: Get Support
+    url: https://github.com/triw0lf/HEARTH/support
+    about: Ask questions about how to contribute or report any issues.
+
+templates:
   - name: HEARTH Submission Form
-    description: Use this template to submit a new hunt idea.
+    description: Use this template to submit a new hunt idea
     labels: ["hunt-submission", "threat-hunting"]
-    about: |
-      Provide a brief description of the adversary’s potential actions and fill out the template to contribute your hunt idea.
     template: Hunt_Template.yaml
+    about: |
+      Provide a brief description of the adversary's potential actions and fill out the template to contribute your hunt idea.
+
+  - name: General Issue Form
+    description: Submit bugs, feature requests, or general feedback
+    labels: ["community-feedback"]
+    template: hearth_general_issue_template.yaml
+    about: |
+      Report bugs, request new features, or provide general feedback to help improve HEARTH.

@@ -83,7 +83,7 @@ New members who:
 
 ## 🔥 Templates 
 
-The primary template for contributing to HEARTH is via the [Hunt Submission Form](https://github.com/HEARTH/issues/new/choose). This template helps ensure your hunt ideas are well-structured and aligned with community standards.
+The primary template for contributing to HEARTH is via the [Hunt Submission Form](https://github.com/triw0lf/HEARTH/issues/new/choose). This template helps ensure your hunt ideas are well-structured and aligned with community standards.
 
 ### Additional Resources
 - **[Hunt-Generation.md](/Kindling/Hunt-Generation.md)**: Once you've got your idea, use this to plan out your hunt in detail.
@@ -92,7 +92,7 @@ The primary template for contributing to HEARTH is via the [Hunt Submission Form
 ## 🔥 The Forge 🔥
 Got a half-baked idea or something that needs work? Submit it to **The Forge**, where we collect and refine early-stage threat hunting ideas for all hunt types.
 
-- Browse [The Forge](/Forge/)
+- Browse [The Forge](/Forge/Forge.md)
 - Contribute using the [Forge Idea Template](/Forge/Forge-Idea-Template.md)
 
 ## Made with 🔥 by the HEARTH team: 

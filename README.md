@@ -77,7 +77,7 @@ Regular contributors who:
 ### HEARTH Apprentices
 New members who:
 - Learn methodologies
-- Make initial contributions
+- Make initial contributions (see [the Forge](/Forge/Forge.md)
 - Engage with community
 - Seek mentorship
 

@@ -64,7 +64,7 @@ body:
       placeholder: "Identify possible next steps to refine this idea"
     validations:
       required: true
-
-  - type: markdown
-    attributes:
-      value: "### Additional Resources\nContributors can refer to HEARTH’s [Hunt-Generation.md](/Kindling/Hunt-Generation.md) and [Hunt-Review.md](/Kindling/Hunt-Review.md) for guidance on developing and reviewing hunt ideas.\n\n> [!IMPORTANT]\n> Your contribution to HEARTH's Forge is an opportunity for collaborative refinement, with the goal of creating valuable, actionable threat hunting methods for the entire community."
+## IDEA: we can add somehing here for guidance documentation (need to do)
+  ##- type: markdown
+  ##  attributes:
+  ##    value: "### Additional Resources\nContributors can refer to HEARTH’s [Hunt-Generation.md](/Kindling/Hunt-Generation.md) and [Hunt-Review.md](/Kindling/Hunt-Review.md) for guidance on developing and reviewing hunt ideas.\n\n> [!IMPORTANT]\n> Your contribution to HEARTH's Forge is an opportunity for collaborative refinement, with the goal of creating valuable, actionable threat hunting methods for the entire community."

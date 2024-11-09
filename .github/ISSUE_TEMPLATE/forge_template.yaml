@@ -1,0 +1,70 @@
+name: Forge Submission Form
+description: Template to submit a new, developing threat hunting idea to HEARTH's Forge
+labels: ['forge', 'idea', 'early-stage', 'threat-hunting']
+body:
+  - type: input
+    id: submitter
+    attributes:
+      label: "Forge Contributor (HEARTH Apprentice)"
+      description: "Your name or handle for community recognition"
+      placeholder: "e.g., @username"
+    validations:
+      required: true
+
+  - type: input
+    id: idea_name
+    attributes:
+      label: "Idea Name"
+      description: "Give your idea a title or leave blank if still deciding"
+      placeholder: "e.g., Suspicious Login Pattern Analysis"
+    validations:
+      required: true
+
+  - type: textarea
+    id: concept_hypothesis
+    attributes:
+      label: "Concept / Hypothesis"
+      description: "Briefly describe your idea, hypothesis, or thought"
+      placeholder: "Describe your initial thought or concept"
+    validations:
+      required: true
+
+  - type: textarea
+    id: why_interesting
+    attributes:
+      label: "Why This Could Be Interesting"
+      description: "Why might this idea be worth pursuing? Any gut feelings, potential use cases, or connections to known threat tactics?"
+      placeholder: "Explain why this idea stands out"
+    validations:
+      required: true
+
+  - type: textarea
+    id: needs_work
+    attributes:
+      label: "What Needs Work"
+      description: "Specify parts of the idea that are unclear, incomplete, or need development"
+      placeholder: "Describe areas that require further thought or research"
+    validations:
+      required: true
+
+  - type: textarea
+    id: potential_impact
+    attributes:
+      label: "Potential Impact"
+      description: "Describe what security risks or threats this hunt might address, and how it could benefit the community if developed further"
+      placeholder: "Explain the impact or value of exploring this idea"
+    validations:
+      required: true
+
+  - type: textarea
+    id: next_steps
+    attributes:
+      label: "Suggested Next Steps"
+      description: "Outline any suggested next steps, areas for feedback, or questions to explore in HEARTH's Forge"
+      placeholder: "Identify possible next steps to refine this idea"
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: "### Additional Resources\nContributors can refer to HEARTH’s [Hunt-Generation.md](/Kindling/Hunt-Generation.md) and [Hunt-Review.md](/Kindling/Hunt-Review.md) for guidance on developing and reviewing hunt ideas.\n\n> [!IMPORTANT]\n> Your contribution to HEARTH's Forge is an opportunity for collaborative refinement, with the goal of creating valuable, actionable threat hunting methods for the entire community."

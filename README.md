@@ -84,7 +84,7 @@ New members who:
 - Engage with community
 
 ### Additional Resources
-- **[Resources Guide](/Kindling/Resources.md)**: A curated collection of threat intelligence sources, security blogs, research papers, and tools to help generate and refine hunt ideas.
+- **[🪵 Resources Guide](/Kindling/Resources.md)**: A curated collection of threat intelligence sources, security blogs, research papers, and tools to help generate and refine hunt ideas.
 - **[Hunt Generation Template](/Kindling/Hunt-Generation.md)**: Once you've got your idea, use this to plan out your hunt in detail.
 - **[Hunt Review Template](/Kindling/Hunt-Review.md)**: After your hunt, use this to capture all key findings and ensure nothing is missed when sharing your results.
 

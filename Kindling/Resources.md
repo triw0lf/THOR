@@ -43,7 +43,7 @@ Before submitting a hunt to HEARTH, it's valuable to gather intelligence and ins
   - Threat hunting tools
   - Attack simulation projects
 - **Security Forums**
-  - Reddit ([r/netsec](https://www.reddit.com/r/netsec/), r/blueteam](https://www.reddit.com/r/blueteam/), [r/purpleteam](https://www.reddit.com/r/purpleteam/), [r/redteam](https://www.reddit.com/r/redteam/))
+  - Reddit ([r/netsec](https://www.reddit.com/r/netsec/), [r/blueteam](https://www.reddit.com/r/blueteam/), [r/purpleteam](https://www.reddit.com/r/purpleteam/), [r/redteam](https://www.reddit.com/r/redteam/))
   - InfoSec Slack / Discord communities
  
 ## Resource Directory

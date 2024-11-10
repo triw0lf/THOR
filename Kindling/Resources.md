@@ -1,4 +1,4 @@
-# 🔥 Resources for Threat Hunting
+# 🪵 Resources for Threat Hunting
 
 ## Overview
 Before submitting a hunt to HEARTH, it's valuable to gather intelligence and inspiration from various sources. This guide provides resources and methods for developing threat hunting ideas.

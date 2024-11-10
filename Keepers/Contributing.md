@@ -1,4 +1,4 @@
-# Contributing to HEARTH
+# 🔥 Contributing to HEARTH
 
 Welcome to the HEARTH community! We're excited to have you join us in building a comprehensive knowledge base for threat hunting. This guide will walk you through the process of submitting your hunt ideas and becoming an active member of our community.
 
@@ -75,13 +75,7 @@ If your hunt idea isn't fully developed yet:
 2. Review existing hunts for inspiration
 3. Join community discussions
 4. Ask questions in our issues section
-
-## Need Help?
-
-- Review our [Hunt-Generation.md](/Kindling/Hunt-Generation.md) guide
-- Check our [Hunt-Review.md](/Kindling/Hunt-Review.md) template
-- Reach out to HEARTH Keepers
-- Join community discussions
+5. Check out our [🪵 Resources Guide](/Kindling/Resources.md)!
 
 Remember: Every great hunt starts with a single idea. We're here to help you develop and share yours with the community.
 

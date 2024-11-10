@@ -1,7 +1,20 @@
-name: Forge Submission Form
-description: Template to submit a new, developing threat hunting idea to HEARTH's Forge
+name: 🔨 Forge - Early Stage Hunt Idea
+description: |
+  For hunt ideas that need refinement before becoming a full HEARTH submission. 
+  The Forge is a collaborative space to workshop and develop hunting concepts.
+  
+  ⚠️ For completed, tested hunt methodologies, please use the HEARTH Hunt Submission Form instead.
 labels: ['forge', 'idea', 'early-stage', 'threat-hunting']
+
 body:
+  - type: markdown
+    attributes:
+      value: |
+        # Welcome to the HEARTH Forge! 🔨
+        This space is for developing early-stage threat hunting ideas. Unlike full HEARTH submissions,
+        Forge ideas don't need to be fully tested or documented - they're a starting point for
+        collaboration and refinement.
+
   - type: input
     id: submitter
     attributes:
@@ -12,59 +25,124 @@ body:
       required: true
 
   - type: input
-    id: idea_name
+    id: idea_name 
     attributes:
-      label: "Idea Name"
-      description: "Give your idea a title or leave blank if still deciding"
-      placeholder: "e.g., Suspicious Login Pattern Analysis"
+      label: "Working Title"
+      description: "A name for your hunting idea (can be changed later)"
+      placeholder: "e.g., Suspicious Service Creation Pattern Analysis"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: development_stage
+    attributes:
+      label: "Development Stage"
+      description: "Where is this idea in its development?"
+      options:
+        - "Initial Concept - Just a thought or observation"
+        - "Early Research - Started investigating feasibility"
+        - "Partial Testing - Some preliminary validation"
+        - "Ready for Feedback - Need community input"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: hunt_type
+    attributes:
+      label: "Potential Hunt Type"
+      description: "Which PEAK hunt type might this develop into?"
+      options:
+        - "Flames (Hypothesis-Driven) - Testing specific attack theories"
+        - "Embers (Baseline) - Understanding normal behavior"
+        - "Alchemy (Model-Assisted) - Using data science approaches"
+        - "Not Sure Yet - Need community input"
     validations:
       required: true
 
   - type: textarea
     id: concept_hypothesis
     attributes:
-      label: "Concept / Hypothesis"
-      description: "Briefly describe your idea, hypothesis, or thought"
-      placeholder: "Describe your initial thought or concept"
+      label: "Initial Concept"
+      description: "Share your hunting idea or observation - it doesn't need to be fully formed yet!"
+      placeholder: |
+        Example formats:
+        - I noticed [observation] and wonder if...
+        - What if we looked at [data] to find...
+        - Could [technique] be used to detect...
     validations:
       required: true
 
   - type: textarea
     id: why_interesting
     attributes:
-      label: "Why This Could Be Interesting"
-      description: "Why might this idea be worth pursuing? Any gut feelings, potential use cases, or connections to known threat tactics?"
-      placeholder: "Explain why this idea stands out"
+      label: "Potential Value"
+      description: "Why might this be worth exploring? What sparked your interest?"
+      placeholder: |
+        Consider:
+        - What threats could this detect?
+        - Why current approaches might miss this?
+        - Any real-world incidents that inspired this?
     validations:
       required: true
 
-  - type: textarea
-    id: needs_work
+  - type: checkboxes
+    id: development_needs
     attributes:
-      label: "What Needs Work"
-      description: "Specify parts of the idea that are unclear, incomplete, or need development"
-      placeholder: "Describe areas that require further thought or research"
-    validations:
-      required: true
+      label: "Development Needs"
+      description: "What kind of help do you need to develop this idea?"
+      options:
+        - label: "Technical feasibility feedback"
+        - label: "Data source suggestions"
+        - label: "Detection logic refinement"
+        - label: "Use case validation"
+        - label: "Tool/platform recommendations"
+        - label: "Similar technique examples"
+        - label: "Data science/ML guidance"
+        - label: "Performance optimization ideas"
 
   - type: textarea
-    id: potential_impact
+    id: current_challenges
     attributes:
-      label: "Potential Impact"
-      description: "Describe what security risks or threats this hunt might address, and how it could benefit the community if developed further"
-      placeholder: "Explain the impact or value of exploring this idea"
-    validations:
-      required: true
+      label: "Current Challenges"
+      description: "What obstacles or questions are you facing?"
+      placeholder: |
+        Examples:
+        - Not sure if the data contains what we need
+        - Performance concerns with large datasets
+        - Need help with detection logic
+        - Unsure about false positive rates
 
   - type: textarea
-    id: next_steps
+    id: collaboration_needs
     attributes:
-      label: "Suggested Next Steps"
-      description: "Outline any suggested next steps, areas for feedback, or questions to explore in HEARTH's Forge"
-      placeholder: "Identify possible next steps to refine this idea"
-    validations:
-      required: true
-## IDEA: we can add somehing here for guidance documentation (need to do)
-  ##- type: markdown
-  ##  attributes:
-  ##    value: "### Additional Resources\nContributors can refer to HEARTH’s [Hunt-Generation.md](/Kindling/Hunt-Generation.md) and [Hunt-Review.md](/Kindling/Hunt-Review.md) for guidance on developing and reviewing hunt ideas.\n\n> [!IMPORTANT]\n> Your contribution to HEARTH's Forge is an opportunity for collaborative refinement, with the goal of creating valuable, actionable threat hunting methods for the entire community."
+      label: "Collaboration Needs"
+      description: "How can the community help develop this idea?"
+      placeholder: |
+        What specific input would help move this forward?
+        - Technical expertise needed
+        - Testing environments required
+        - Validation scenarios desired
+
+  - type: textarea
+    id: resources_references
+    attributes:
+      label: "Resources & References"
+      description: "Any relevant articles, tools, or research that might help develop this idea"
+      placeholder: |
+        - Related blog posts
+        - Similar techniques
+        - Relevant attack documentation
+        - Useful tools or scripts
+
+  - type: markdown
+    attributes:
+      value: |
+        ## When to Graduate to Full HEARTH Submission
+        Your Forge idea may be ready for a full HEARTH submission when:
+        - You have a clear, testable hypothesis
+        - The detection methodology is documented and repeatable
+        - You've validated the approach in at least one environment
+        - You can provide concrete examples and use cases
+        - The technique provides actionable results
+
+        When ready, submit your matured idea through the HEARTH Hunt Submission Form!

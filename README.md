@@ -42,21 +42,24 @@ We welcome contributions from all threat hunters! To share your ideas:
 3. Fill out the required information about your hunt
 4. Submit for review
 
-> [!IMPORTANT]
 > See our [Contribution Guidelines](/Keepers/CONTRIBUTING.md) for detailed instructions and requirements.
 
-Approved submissions receive an official hunt number, community recognition, and integration into the HEARTH repository.
+> [!IMPORTANT] 
+> Approved HEARTH Hunt submissions receive an official hunt number, community recognition, and integration into the HEARTH repository.
 
-### 🔥 Other Contributions
+## 🔥 Other Contributions
 
-Have feedback or suggestions? Use our standard issue templates for:
+### 🔨 The Forge
+Got a half-baked idea or something that needs work? Submit it to **The Forge**, where we collect and refine early-stage threat hunting ideas for all hunt types.
+
+- Browse [The Forge](/Forge/Forge.md)
+- Contribute using the [Forge - Early Stage Hunt Idea form](https://github.com/triw0lf/HEARTH/issues/new/choose)
+
+### 🧯 Have feedback or suggestions?
+Use our standard [HEARTH Issue Template](https://github.com/triw0lf/HEARTH/issues/new/choose) for:
 - Bug reports
 - Feature requests
 - General feedback
-
-
-> [!IMPORTANT]
-> Accepted hunt submissions will earn community recognition and a credited hunt number.
 
 ## 🔥 Community Roles
 
@@ -77,28 +80,18 @@ Regular contributors who:
 ### HEARTH Apprentices
 New members who:
 - Learn methodologies
-- Make initial contributions (see [the Forge](/Forge/Forge.md)
+- Make initial contributions (see [the Forge](/Forge/Forge.md))
 - Engage with community
-- Seek mentorship
-
-## 🔥 Templates 
-
-The primary template for contributing to HEARTH is via the [Hunt Submission Form](https://github.com/triw0lf/HEARTH/issues/new/choose). This template helps ensure your hunt ideas are well-structured and aligned with community standards.
 
 ### Additional Resources
-- **[Hunt-Generation.md](/Kindling/Hunt-Generation.md)**: Once you've got your idea, use this to plan out your hunt in detail.
-- **[Hunt-Review.md](/Kindling/Hunt-Review.md)**: After your hunt, use this to capture all key findings and ensure nothing is missed when sharing your results.
-
-## 🔥 The Forge 🔥
-Got a half-baked idea or something that needs work? Submit it to **The Forge**, where we collect and refine early-stage threat hunting ideas for all hunt types.
-
-- Browse [The Forge](/Forge/Forge.md)
-- Contribute using the [Forge Idea Template](/Forge/Forge-Idea-Template.md)
+- **[Resources Guide](/Kindling/Resources.md)**: A curated collection of threat intelligence sources, security blogs, research papers, and tools to help generate and refine hunt ideas.
+- **[Hunt Generation Template](/Kindling/Hunt-Generation.md)**: Once you've got your idea, use this to plan out your hunt in detail.
+- **[Hunt Review Template](/Kindling/Hunt-Review.md)**: After your hunt, use this to capture all key findings and ensure nothing is missed when sharing your results.
 
 ## Made with 🔥 by the HEARTH team: 
 Lauren 🤠 x:[@jotunvillur](https://x.com/jotunvillur) / LI:[Lauren Proehl](https://www.linkedin.com/in/laurenproehl/)  
-Sydney Marrone 🏋️‍♀️ x:[@letswastetime](https://x.com/letswastetime) / LI:[Sydney Marrone](https://www.linkedin.com/in/sydneymarrone/)  
-John Grageda :skull: x:[@AngryInfoSecGuy](https://x.com/AngryInfoSecGuy) / LI:[John Grageda](https://www.linkedin.com/in/johngrageda/)
+Sydney 🏋️‍♀️ x:[@letswastetime](https://x.com/letswastetime) / LI:[Sydney Marrone](https://www.linkedin.com/in/sydneymarrone/)  
+John :skull: x:[@AngryInfoSecGuy](https://x.com/AngryInfoSecGuy) / LI:[John Grageda](https://www.linkedin.com/in/johngrageda/)
 
 ---
 <p align="center">

@@ -1,9 +1,5 @@
 name: 🔨 Forge - Early Stage Hunt Idea
-description: |
-  For hunt ideas that need refinement before becoming a full HEARTH submission. 
-  The Forge is a collaborative space to workshop and develop hunting concepts.
-  
-  ⚠️ For completed, tested hunt methodologies, please use the HEARTH Hunt Submission Form instead.
+description: A collaborative workspace for developing and refining early-stage threat hunting ideas before they become full HEARTH submissions.
 labels: ['forge', 'idea', 'early-stage', 'threat-hunting']
 
 body:
@@ -14,6 +10,8 @@ body:
         This space is for developing early-stage threat hunting ideas. Unlike full HEARTH submissions,
         Forge ideas don't need to be fully tested or documented - they're a starting point for
         collaboration and refinement.
+        
+        ⚠️ For completed, tested hunt methodologies, please use the HEARTH Hunt Submission Form instead.
 
   - type: input
     id: submitter

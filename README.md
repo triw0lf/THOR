@@ -42,7 +42,7 @@ We welcome contributions from all threat hunters! To share your ideas:
 3. Fill out the required information about your hunt
 4. Submit for review
 
-> See our [Contribution Guidelines](/Keepers/CONTRIBUTING.md) for detailed instructions and requirements.
+> See our [Contribution Guidelines](/Keepers/Contributing.md) for detailed instructions and requirements.
 
 > [!IMPORTANT] 
 > Approved HEARTH Hunt submissions receive an official hunt number, community recognition, and integration into the HEARTH repository.

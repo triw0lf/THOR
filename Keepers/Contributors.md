@@ -1,5 +1,6 @@
 # 🔥 Contributors 🔥
 Everyone listed below has submitted ideas that have been added to HEARTH. Thank you for stoking the fire that warms our community!
+<br></br>
 
 | Name          | Socials | Contribution |
 | ------------- | ------- | ------------ |

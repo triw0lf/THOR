@@ -9,7 +9,7 @@ Everyone listed below has submitted ideas that have been added to HEARTH. Thank 
 | John Grageda | x:[@AngryInfoSecGuy](https://x.com/AngryInfoSecGuy) / LI:[John Grageda](https://www.linkedin.com/in/johngrageda/) | Founder. B002, B003, H005, H006, M003, M004 | 
 | Jamie Williams |  x:[@jamieantisocial](https://x.com/jamieantisocial) | Early Contributor. B004, H006, H007 |
 | Audra Streetman | x:[@audrastreetman](https://x.com/audrastreetman) / LI:[Audra Streetman](https://www.linkedin.com/in/audrastreetman/) | Early Contributor. H008, M005 | 
-
+| Oussama Azrara |  / LI:[Oussama AZRARA ](https://www.linkedin.com/in/azrara/) | Early Contributor. H009, H0010 | 
 
 <br> </br>
 >[!IMPORTANT]

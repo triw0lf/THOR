@@ -1,0 +1,36 @@
+name: Issue Labeler
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  label-new-issues:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    steps:
+      - name: Label issues based on template
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const issue = context.payload.issue;
+            
+            // Default labels to apply to all issues
+            const defaultLabels = ['pending-review'];
+            
+            // Add labels based on issue title prefix
+            if (issue.title.startsWith('[H]')) {
+              defaultLabels.push('hypothesis-driven');
+            } else if (issue.title.startsWith('[B]')) {
+              defaultLabels.push('baseline');
+            } else if (issue.title.startsWith('[M]')) {
+              defaultLabels.push('model-assisted');
+            }
+            
+            // Add labels to the issue
+            await github.rest.issues.addLabels({
+              owner: context.repo.owner,
+              repo: context.repo.name,
+              issue_number: issue.number,
+              labels: defaultLabels
+            });

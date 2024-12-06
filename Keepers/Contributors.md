@@ -4,7 +4,7 @@ Everyone listed below has submitted ideas that have been added to HEARTH. Thank 
 
 | Name          | Socials | Contribution |
 | ------------- | ------- | ------------ |
-| Lauren Proehl | x:[@jotunvillur](https://x.com/jotunvillur) / LI:[Lauren Proehl](https://www.linkedin.com/in/laurenproehl/) | Founder. H003. |
+| Lauren Proehl | x:[@jotunvillur](https://x.com/jotunvillur) / LI:[Lauren Proehl](https://www.linkedin.com/in/laurenproehl/) | Founder. H003, B006, B007. |
 | Sydney Marrone | x:[@letswastetime](https://x.com/letswastetime) / LI:[Sydney Marrone](https://www.linkedin.com/in/sydneymarrone/) | Founder. B001, H001, H002, M001, M002 |
 | John Grageda | x:[@AngryInfoSecGuy](https://x.com/AngryInfoSecGuy) / LI:[John Grageda](https://www.linkedin.com/in/johngrageda/) | Founder. B002, B003, H005, H006, M003, M004 | 
 | Jamie Williams |  x:[@jamieantisocial](https://x.com/jamieantisocial) | Early Contributor. B004, H006, H007 |

@@ -11,7 +11,7 @@ Everyone listed below has submitted ideas that have been added to HEARTH. Thank 
 | Audra Streetman | x:[@audrastreetman](https://x.com/audrastreetman) / LI:[Audra Streetman](https://www.linkedin.com/in/audrastreetman/) | Early Contributor. H008, M005 | 
 | Oussama Azrara |  / LI:[Oussama AZRARA ](https://www.linkedin.com/in/azrara/) | Early Contributor. H009, H0010 |
 | H983R | x:[@f9_hu983r](https://x.com/F9_HU983R) / LI:[Akshay Nautiyal](https://www.linkedin.com/in/akshaynautiyal) | Early Contributor. H011 |
-
+| Cody Lunday |  / LI:[Cody Lunday ](https://www.linkedin.com/in/codylunday/) | Early Contributor. H012 |
 <br> </br>
 >[!IMPORTANT]
 >If your hunt idea has been accepted after submitting an issue - see [Contributing.md](https://github.com/triw0lf/HEARTH/blob/main/Keepers/Contributing.md) - you will be asked to make a pull request to add your name to this list to get your official Contributor status on the repo.
